@@ -78,6 +78,10 @@ bike-rental-ml-regression/
 - There are unique symbols or missing values in the dataset.
 - Changed the columns name for better understanding of variables. (like rec_id, datetime, year, month, hours, weather_condition, temp, atemp, humidity, count)
 - Changed the data types of numerical columns which represents categories. (like season, year, month, temp, atemp, humidity, windspeed, casual, registered, count to categorical data type).
+
+<h2><a herf = "#exploratory-data-analysis- eda"></a>Exploratory Data Analysis (EDA)</h2>
+
+
 - There are null values in the columns, so imputed categorical features with the mode and numerical features with the median using KNN Imputer.
 
 **Outliers Identified:**
@@ -148,4 +152,5 @@ git clone https://github.com/your-username/bike-rental-ml-regression.git
 
 **Praveen soni**
 📧 Email: sonipraveen220@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/praveensoni7/) 
+🔗 [LinkedIn](https://www.linkedin.com/in/praveensoni7/)
+🔗[Streamlit](https://bike-rental-ml-regression-ps220.streamlit.app/) 

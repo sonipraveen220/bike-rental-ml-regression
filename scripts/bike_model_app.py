@@ -11,7 +11,6 @@ import os
 
 # Correct path to the model file
 MODEL_PATH = os.path.join("scripts", "bike_pipeline.pkl")
-
 pipeline = joblib.load(MODEL_PATH)
 
 # ===================== PAGE TEMPLATE =====================
