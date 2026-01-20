@@ -6,7 +6,13 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import r2_score
 
 # ===================== LOAD PIPELINE =====================
-pipeline = joblib.load(r"bike_pipeline.pkl")
+import joblib
+import os
+
+# Correct path to the model file
+MODEL_PATH = os.path.join("scripts", "bike_pipeline.pkl")
+
+pipeline = joblib.load(MODEL_PATH)
 
 # ===================== PAGE TEMPLATE =====================
 st.set_page_config(page_title="Bike Rental Prediction", page_icon="🚴", layout="wide")
