@@ -82,6 +82,7 @@ bike-rental-ml-regression/
 ---
 <h2><a herf = "#exploratory-data-analysis- eda"></a>Exploratory Data Analysis (EDA)</h2>
 
+**Missing values:**
 - There are null values in the columns, so imputed categorical features with the mode and numerical features with the median using KNN Imputer.
 
 **Outliers Identified:**
@@ -123,13 +124,15 @@ bike-rental-ml-regression/
 git clone https://github.com/your-username/bike-rental-ml-regression.git
 ```
 2.  Install dependencies
+```
          pip install -r requirements.txt
 ```
-```
+
+
 3.  Explore the dataset
     Place the dataset (bike_sharing.csv or equivalent) in the dataset/ folder.
-```
-```
+
+
 4. Open and run notebooks:
    - notebooks/bike_rental_prediction.ipynb
 
@@ -151,6 +154,6 @@ git clone https://github.com/your-username/bike-rental-ml-regression.git
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
 **Praveen soni**
-📧 Email: sonipraveen220@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/praveensoni7/)
+📧 Email: sonipraveen220@gmail.com <br>
+🔗 [LinkedIn](https://www.linkedin.com/in/praveensoni7/) <br>
 🔗[Streamlit](https://bike-rental-ml-regression-ps220.streamlit.app/) 
