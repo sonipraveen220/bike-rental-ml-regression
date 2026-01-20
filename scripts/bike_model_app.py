@@ -17,7 +17,7 @@ pipeline = joblib.load(MODEL_PATH)
 st.set_page_config(page_title="Bike Rental Prediction", page_icon="🚴", layout="wide")
 st.title("🏍️ Bike Rental Demand Prediction ")
 st.markdown("---")
-st.subheader("📌 Project Group 5")
+
 
 # ===================== SIDEBAR NAVIGATION =====================
 st.sidebar.image(
@@ -201,7 +201,7 @@ elif option == "About ℹ️":
     st.markdown("---")
     
     st.subheader("👨‍💻 Developed By")
-    st.write(" * Project Group 5")
+    st.write(" * praveen soni")
 
     st.subheader("📅 Project Generated")
     st.write(" * Year: 2025–2026")
